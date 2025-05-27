@@ -1,19 +1,19 @@
 {
   "name": "@ach90/hrnet-modal",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "main": "dist/hrnet-modal.js",
   "module": "dist/hrnet-modal.mjs",
   "style": "dist/modal.css",
   "types": "dist/index.d.ts",
   "exports": {
-  ".": {
-    "require": "./dist/hrnet-modal.js",
-    "import": "./dist/hrnet-modal.mjs"
+    ".": {
+      "require": "./dist/hrnet-modal.js",
+      "import": "./dist/hrnet-modal.mjs"
+    },
+    "./style.css": {
+      "default": "./dist/style.css"
+    }
   },
-     "./style.css": {
-    "default": "./dist/style.css"
-  }
-},
   "files": [
     "dist"
   ],
@@ -23,7 +23,8 @@
   "keywords": [
     "react",
     "modal",
-    "react-modal"],
+    "react-modal"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/ach90/hrnet-modal"
