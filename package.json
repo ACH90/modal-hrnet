@@ -1,6 +1,6 @@
 {
   "name": "@ach90/hrnet-modal",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "dist/hrnet-modal.js",
   "module": "dist/hrnet-modal.mjs",
   "style": "dist/modal.css",
@@ -19,6 +19,14 @@
   ],
   "scripts": {
     "build": "vite build"
+  },
+  "keywords": [
+    "react",
+    "modal",
+    "react-modal"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ach90/hrnet-modal"
   },
   "peerDependencies": {
     "react": "^18.0.0 || ^19.0.0",
