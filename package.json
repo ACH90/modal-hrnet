@@ -1,6 +1,6 @@
 {
   "name": "@ach90/hrnet-modal",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "main": "dist/hrnet-modal.js",
   "module": "dist/hrnet-modal.mjs",
   "style": "dist/modal.css",
